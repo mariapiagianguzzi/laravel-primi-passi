@@ -81,12 +81,7 @@
                     <a href="{{ url('/') }}">Home</a>
                 </nav>
             </header>
-            <footer>
-                <div class="container">
-                <a href="{{ url('/about') }}">About</a>
-                <a href="mailto:text@gmail.com">Email</a>
-                </div>
-            </footer>
+            
          <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -117,6 +112,12 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+            <footer>
+                <div class="container">
+                    <a href="{{ url('/about') }}">About</a>
+                    <a href="mailto:text@gmail.com">Email</a>
+                </div>
+            </footer>
             </div>
         </div>
     </body>
